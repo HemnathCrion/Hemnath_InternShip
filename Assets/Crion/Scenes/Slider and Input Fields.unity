@@ -1040,10 +1040,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 1830293032}
-  nameInput: {fileID: 0}
-  newName: {fileID: 0}
+  nameInput: {fileID: 1065380280}
+  cubeName: {fileID: 1700195048}
   slider: {fileID: 1909449740}
-  button: {fileID: 0}
+  button: {fileID: 1054088759}
 --- !u!4 &1290823535
 Transform:
   m_ObjectHideFlags: 0

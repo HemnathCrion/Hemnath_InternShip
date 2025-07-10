@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ColorChange : MonoBehaviour
 {
     private Renderer cubeRenderer;
     private Color[] colors = new Color[5];
@@ -27,5 +28,9 @@ public class NewBehaviourScript : MonoBehaviour
         currentColorIndex = (currentColorIndex + 1) % colors.Length;
 
         cubeRenderer.material.color = colors[currentColorIndex];
+    }
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene("Basic UI Elements");
     }
 }

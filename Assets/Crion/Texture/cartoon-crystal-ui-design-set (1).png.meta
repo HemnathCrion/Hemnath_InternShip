@@ -1,0 +1,1262 @@
+fileFormatVersion: 2
+guid: 5b68bb1440bff5b4bae8f66b4c85f786
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 625
+        width: 463
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b2b86c7a49efd468d778372c5296b4
+      internalID: 155580035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 652
+        width: 714
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec6ee9a095486f40afff5f4b703215a
+      internalID: 1763160097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 774
+        width: 213
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e83475127f34640bd919cf0ce4de1c
+      internalID: -1568260572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 774
+        width: 214
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb35ceb2a165754cbd6498539d42586
+      internalID: -1064951008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 774
+        width: 213
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae26484d337dda4bb950edbd03f91fe
+      internalID: 1967856329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 682
+        width: 213
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ae78d209da80b47bdca743488e87ad
+      internalID: -674626151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 681
+        width: 214
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac68d5f8bbdae640a4b77c91c761c3f
+      internalID: -2131225787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 682
+        width: 213
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef30dda0b425a42818bc0204e48d20
+      internalID: -509677303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 549
+        width: 89
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b756586b4d0edcb40a1e7422c0329471
+      internalID: 958004367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 488
+        width: 111
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0d16d1b8a901343bd3a62cbadcdd30
+      internalID: 87385392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 490
+        width: 109
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce563ebfdf9e06b48ad9e226cf51c6fc
+      internalID: 1942156189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 489
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd377f69aeb6aab4f9d753f7a83a75bf
+      internalID: -561633736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_12
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 64
+        width: 733
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd999d5214686694181c74a9e26664f3
+      internalID: -909939391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 589
+        width: 213
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8707dcf3716558847bbb16d97dd953ba
+      internalID: -1930514509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 587
+        width: 214
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c938fd0e1e356d42beb9c454c38d527
+      internalID: -1809831094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 590
+        width: 213
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a896479e33b8fc47be48e178c34257f
+      internalID: 1958537525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 490
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a12afba1455c3438d2eb29c42090c9
+      internalID: 143276591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 494
+        width: 213
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8d467bd5e04414ba141bf147d967ca
+      internalID: 905870609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 490
+        width: 214
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426af28dffcd3ce42b8f3e2077b6f7fd
+      internalID: 1006523534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 498
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd9353f150456742ab367f73df2ee0d
+      internalID: 1198698872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 498
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff63200b01f5064383885ad60d30f2d
+      internalID: -885812741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 498
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cffe158d7a8ea45a948da984726cc6
+      internalID: -95350313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 376
+        width: 460
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c13c9465693f4f9701004288e80d3
+      internalID: -478732234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 60
+        width: 340
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac01848f46d506b4c914545c1704973d
+      internalID: -1073863749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 403
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7993d4e3693bf3741843ae152da3e721
+      internalID: 1087002218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 403
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39706257c683504fbcd3850b0ca53ca
+      internalID: 1378917307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 398
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2933c1e0acd6f4cb614c9e0d177696
+      internalID: -1084531221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 399
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439a7ed507679a444841d088c093f405
+      internalID: -1808290996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 315
+        width: 448
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a9d48b712f1f8449846c99ae82ae06
+      internalID: 1239557092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 308
+        width: 121
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6d733c9b48e6b4186f8da15f11bf7a
+      internalID: 1273454643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 308
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8576af1b05e9d3b44a353b4688720823
+      internalID: 2076277044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 307
+        width: 120
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcafc8d5675be994aa827af1d5c9a175
+      internalID: -1924014398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 215
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b107fdd470359cc49b0dda719725e88f
+      internalID: 1291695796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_33
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 215
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a8810dca1eac94eb62a4ba83ad6335
+      internalID: 399514796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 215
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1556d589237441c47bd8c63b21aaf76a
+      internalID: 513550294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_35
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 216
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25843239b1d488419cc7bbba0c403c9
+      internalID: -276864388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_36
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 190
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87feff7e1a590a14b8fc294c8cb3c829
+      internalID: 1749820510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 216
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd9daba5cf0ad34aa51b809b13b9dec
+      internalID: -777007346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 163
+        width: 326
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91135759b3f90f84da0ccc500e6c0869
+      internalID: 2360239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 136
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2964ab610f7c8448cc432836ca6f11
+      internalID: 913411134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 136
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd55e7c1cef1084cb51e65c8b55e9c8
+      internalID: -1423661809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 136
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8de94a426311434898262605c1d3101
+      internalID: 116489716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 135
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca28b1671e2140243bc6e2fb95f9e92a
+      internalID: -1426354341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc5725acf4262a4084905740871cad9
+      internalID: 988289188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_44
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 135
+        width: 76
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0528ef6b6852d242858290d907a6d6f
+      internalID: 1775834722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_45
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 64
+        width: 324
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c855e8b455cbbf942b3ff7fac235cc4d
+      internalID: 1239240311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_46
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 61
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd994d0bad8dec1439862bd820bf3472
+      internalID: -664030616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_47
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 61
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd77c7ff2a0342a4884c87c3ef1a5667
+      internalID: -222870961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_48
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 61
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7397bffa685ef4aa4182ac39c7c9c5
+      internalID: 1172543147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_49
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 60
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcf2e83e51824b429181eb1d59f3e67
+      internalID: -2141520535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-crystal-ui-design-set (1)_50
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 61
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74427afd76e763e49b663aad78296566
+      internalID: 510955382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 97b9d12f24182f1448aabbbcdfbcc5ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cartoon-crystal-ui-design-set (1)_0: 155580035
+      cartoon-crystal-ui-design-set (1)_1: 1763160097
+      cartoon-crystal-ui-design-set (1)_10: 1942156189
+      cartoon-crystal-ui-design-set (1)_11: -561633736
+      cartoon-crystal-ui-design-set (1)_12: -909939391
+      cartoon-crystal-ui-design-set (1)_13: -1930514509
+      cartoon-crystal-ui-design-set (1)_14: -1809831094
+      cartoon-crystal-ui-design-set (1)_15: 1958537525
+      cartoon-crystal-ui-design-set (1)_16: 143276591
+      cartoon-crystal-ui-design-set (1)_17: 905870609
+      cartoon-crystal-ui-design-set (1)_18: 1006523534
+      cartoon-crystal-ui-design-set (1)_19: 1198698872
+      cartoon-crystal-ui-design-set (1)_2: -1568260572
+      cartoon-crystal-ui-design-set (1)_20: -885812741
+      cartoon-crystal-ui-design-set (1)_21: -95350313
+      cartoon-crystal-ui-design-set (1)_22: -478732234
+      cartoon-crystal-ui-design-set (1)_23: -1073863749
+      cartoon-crystal-ui-design-set (1)_24: 1087002218
+      cartoon-crystal-ui-design-set (1)_25: 1378917307
+      cartoon-crystal-ui-design-set (1)_26: -1084531221
+      cartoon-crystal-ui-design-set (1)_27: -1808290996
+      cartoon-crystal-ui-design-set (1)_28: 1239557092
+      cartoon-crystal-ui-design-set (1)_29: 1273454643
+      cartoon-crystal-ui-design-set (1)_3: -1064951008
+      cartoon-crystal-ui-design-set (1)_30: 2076277044
+      cartoon-crystal-ui-design-set (1)_31: -1924014398
+      cartoon-crystal-ui-design-set (1)_32: 1291695796
+      cartoon-crystal-ui-design-set (1)_33: 399514796
+      cartoon-crystal-ui-design-set (1)_34: 513550294
+      cartoon-crystal-ui-design-set (1)_35: -276864388
+      cartoon-crystal-ui-design-set (1)_36: 1749820510
+      cartoon-crystal-ui-design-set (1)_37: -777007346
+      cartoon-crystal-ui-design-set (1)_38: 2360239
+      cartoon-crystal-ui-design-set (1)_39: 913411134
+      cartoon-crystal-ui-design-set (1)_4: 1967856329
+      cartoon-crystal-ui-design-set (1)_40: -1423661809
+      cartoon-crystal-ui-design-set (1)_41: 116489716
+      cartoon-crystal-ui-design-set (1)_42: -1426354341
+      cartoon-crystal-ui-design-set (1)_43: 988289188
+      cartoon-crystal-ui-design-set (1)_44: 1775834722
+      cartoon-crystal-ui-design-set (1)_45: 1239240311
+      cartoon-crystal-ui-design-set (1)_46: -664030616
+      cartoon-crystal-ui-design-set (1)_47: -222870961
+      cartoon-crystal-ui-design-set (1)_48: 1172543147
+      cartoon-crystal-ui-design-set (1)_49: -2141520535
+      cartoon-crystal-ui-design-set (1)_5: -674626151
+      cartoon-crystal-ui-design-set (1)_50: 510955382
+      cartoon-crystal-ui-design-set (1)_6: -2131225787
+      cartoon-crystal-ui-design-set (1)_7: -509677303
+      cartoon-crystal-ui-design-set (1)_8: 958004367
+      cartoon-crystal-ui-design-set (1)_9: 87385392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

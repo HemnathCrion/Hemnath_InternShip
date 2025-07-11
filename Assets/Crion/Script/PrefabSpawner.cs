@@ -1,22 +1,31 @@
 using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PrefabSpawner : MonoBehaviour
 {
-    public TMP_Dropdown prefabDropdown;
     public GameObject[] prefabs;
     public Transform spawnArea;
+    public float spawnInterval = 1.5f;
 
-    public void SpawnSelectedPrefab()
+    void Start()
     {
-        int index = prefabDropdown.value;
-        if (index < 0 || index >= prefabs.Length) return;
+        StartCoroutine(SpawnRandomPrefabs());
+    }
 
-        Vector3 randomPos = new Vector3(Random.Range(-5,5),1,Random.Range(-5,5));
+    IEnumerator SpawnRandomPrefabs()
+    {
+        while (true)
+        {
+            SpawnPrefab();
+            yield return new WaitForSeconds(spawnInterval);
+        }
+    }
 
-        Instantiate(prefabs[index],randomPos,Quaternion.identity);
+    void SpawnPrefab()
+    {
+        int index = Random.Range(0, prefabs.Length);
+        Vector3 randomPos = new Vector3(Random.Range(-5f, 5f), 1f, Random.Range(-5f, 5f));
+        GameObject spawned = Instantiate(prefabs[index], randomPos, Quaternion.identity);
+        Destroy(spawned, 2f); // Automatically destroy after 2 seconds
     }
 }

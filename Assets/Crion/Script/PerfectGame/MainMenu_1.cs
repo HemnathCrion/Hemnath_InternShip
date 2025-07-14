@@ -9,12 +9,15 @@ public class MainMenu_1 : MonoBehaviour
     public GameObject mainPanel;
     public GameObject settingPanel;
     public GameObject musicPanel;
+    public GameObject gameModePanel;
     public Button exitButton;
     public Button confirmButton;
     public Button backButton;
     public Button settingButton;
     public Button musicButton;
     public Button exitSetting;
+    public Button exitGamePanel;
+    public Button gameMode_Button;
     public Slider music_Slider;
     public AudioSource bgAudio;
     // Start is called before the first frame update
@@ -28,6 +31,10 @@ public class MainMenu_1 : MonoBehaviour
         settingButton.onClick.AddListener(ShowSettingPanel);
         musicButton.onClick.AddListener(ShowMusicPanel);
         exitSetting.onClick.AddListener(ShowMainPanel);
+        gameMode_Button.onClick.AddListener(ShowGameMoadPanel);
+        exitGamePanel.onClick.AddListener(ShowMainPanel);
+
+     
         music_Slider.value = bgAudio.volume;
 
     }
@@ -37,18 +44,31 @@ public class MainMenu_1 : MonoBehaviour
         mainPanel.SetActive(true);
         settingPanel.SetActive(false);
         musicPanel.SetActive(false);
+        gameModePanel.SetActive(false);
     }
     public void ShowSettingPanel()
     {
         mainPanel.SetActive(false);
         settingPanel.SetActive(true);
         musicPanel.SetActive(false);
+        gameModePanel.SetActive(false);
+
     }
     public void ShowMusicPanel()
     {
         mainPanel.SetActive(false);
         settingPanel.SetActive(false);
         musicPanel.SetActive(true);
+        gameModePanel.SetActive(false);
+
+    }
+    public void ShowGameMoadPanel()
+    {
+        gameModePanel.SetActive(true);
+        mainPanel.SetActive(false);
+        settingPanel.SetActive(false);
+        musicPanel.SetActive(false);
+
     }
     public void StartLoadScene()
     {

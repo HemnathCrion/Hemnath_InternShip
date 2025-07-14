@@ -6,10 +6,11 @@ public class PrefabSpawner : MonoBehaviour
     public GameObject[] prefabs;
     public Transform spawnArea;
     public float spawnInterval = 1.5f;
+    private Coroutine spawnCoroutine;
 
     void Start()
     {
-        StartCoroutine(SpawnRandomPrefabs());
+        spawnCoroutine = StartCoroutine(SpawnRandomPrefabs());
     }
 
     IEnumerator SpawnRandomPrefabs()
@@ -26,6 +27,6 @@ public class PrefabSpawner : MonoBehaviour
         int index = Random.Range(0, prefabs.Length);
         Vector3 randomPos = new Vector3(Random.Range(-5f, 5f), 1f, Random.Range(-5f, 5f));
         GameObject spawned = Instantiate(prefabs[index], randomPos, Quaternion.identity);
-        Destroy(spawned, 2f); // Automatically destroy after 2 seconds
+        Destroy(spawned, 2f);
     }
 }

@@ -19,4 +19,8 @@ public class ReStart : MonoBehaviour
         Time.timeScale = 1f; // Resume game time
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    public void ExitGameOver()
+    {
+        SceneManager.LoadScene("MainMenu_Scene");
+    }
 }

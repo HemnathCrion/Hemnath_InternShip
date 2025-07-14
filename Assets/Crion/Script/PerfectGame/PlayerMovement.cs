@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed;
     public float rotationSpeed = 10f;
 
+    public void Start()
+    {
+        moveSpeed = PlayerPrefs.GetFloat("PlayerSpeed", 5f);
+    }
     void Update()
     {
         float moveX = Input.GetAxis("Horizontal"); // A/D or Left/Right

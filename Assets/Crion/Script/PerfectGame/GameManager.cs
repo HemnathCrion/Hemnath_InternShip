@@ -1,35 +1,38 @@
 using UnityEngine;
-using UnityEngine.UI; // For Dropdown
-using TMPro;          // If using TMP_Dropdown
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public PrefabSpawner prefabSpawner;
-    public PlayerMovement player;
-    public TMP_Dropdown modeDropdown; // or use Dropdown if not TMP
+    public TMP_Dropdown modeDropdown;
 
-    void Start()
+    public void Start()
     {
-        //modeDropdown.onValueChanged.AddListener(OnModeChanged);
-        OnModeChanged(modeDropdown.value); // Set initial values
-    }
+        modeDropdown.onValueChanged.AddListener(onModeChange);
 
-    public void OnModeChanged(int index)
+    }
+    public void onModeChange(int index)
     {
         switch (index)
-        {
-            case 0: // Easy
-                prefabSpawner.spawnInterval = 2.5f;
-                player.moveSpeed = 4f;
+        { 
+            case 0:
+                PlayerPrefs.SetFloat("PlayerSpeed", 4f);
+                PlayerPrefs.SetFloat("SpawnInterval", 2.5f);
                 break;
-            case 1: // Medium
-                prefabSpawner.spawnInterval = 1.5f;
-                player.moveSpeed = 6f;
+             case 1:
+                PlayerPrefs.SetFloat("PlayerSpeed", 6f);
+                PlayerPrefs.SetFloat("SpawnInterval", 1.5f);
                 break;
-            case 2: // Hard
-                prefabSpawner.spawnInterval = 0.75f;        
-                player.moveSpeed = 9f;
+             case 2:
+                PlayerPrefs.SetFloat("PlayerSpeed", 9f);
+                PlayerPrefs.SetFloat("SpawnInterval", 0.75f);
                 break;
         }
+        PlayerPrefs.Save();
+
+    }
+    public void StartGame()
+    {
+        SceneManager.LoadScene("Game_Scene");
     }
 }

@@ -5,12 +5,13 @@ public class PrefabSpawner : MonoBehaviour
 {
     public GameObject[] prefabs;
     public Transform spawnArea;
-    public float spawnInterval = 1.5f;
+    public float spawnInterval ;
     private Coroutine spawnCoroutine;
 
     void Start()
     {
-        spawnCoroutine = StartCoroutine(SpawnRandomPrefabs());
+        spawnInterval = PlayerPrefs.GetFloat("SpawnInterval", 1.5f);
+        StartCoroutine(SpawnRandomPrefabs());
     }
 
     IEnumerator SpawnRandomPrefabs()
